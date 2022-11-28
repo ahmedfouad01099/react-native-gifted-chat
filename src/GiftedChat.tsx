@@ -874,8 +874,7 @@ class GiftedChat<TMessage extends IMessage = IMessage> extends React.Component<
 
   render() {
     if (this.state.isInitialized === true) {
-      const { wrapInSafeArea } = this.props
-      const Wrapper = wrapInSafeArea ? SafeAreaView : View
+      const Wrapper = View
       const actionSheet =
         this.props.actionSheet ||
         (() => this._actionSheetRef.current?.getContext()!)
