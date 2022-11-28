@@ -17,7 +17,6 @@ import {
   ActionSheetOptions,
 } from '@expo/react-native-action-sheet'
 import uuid from 'uuid'
-import { SafeAreaView } from 'react-native-safe-area-context'
 import dayjs from 'dayjs'
 import localizedFormat from 'dayjs/plugin/localizedFormat'
 
